@@ -1,0 +1,162 @@
+*{
+    margin-left:20px;
+}
+
+nav{
+    background-color: white;
+    font-weight: 500;
+    border: none;
+    color:black;
+    margin:0 20px;
+}
+
+header {
+    position: fixed;
+    display:flex;
+    flex-direction:row;
+    top:20px;
+    right: 400px;
+    padding: 15px;
+    width: 100vw;
+    justify-content: end;
+    gap: 2rem;
+    border:none;
+   
+}
+.login{
+    justify-content: end;
+    width:250px;
+    height:65px;
+    border:none;
+    color:tomato;
+    background-color: white;
+    font-weight:bold;
+    font-size:15px;
+    right:30px;
+    display:flex;
+    
+}
+
+.signup{
+   background-color: Tomato;
+    border:none;
+    border-radius: 20px;
+    width:90px;
+    height:30px;
+   color:white;
+    font-weight:bold;
+    font-size:15px;
+    justify-content:center;
+    display:flex;
+    align-items: center;
+}
+ 
+.navbar > h1{
+    margin-top:30px;
+    font-weight:bold;
+}
+
+
+.content{
+    display:flex;
+    align-items: flex;
+    height:450px;
+    gap:2;
+   
+}
+
+.frst-col{
+    flex:3;
+    
+    margin-right:20px;
+    
+}
+
+
+
+.frst-col button{
+    width:150px;
+    height:40px;
+    border-color: orangered;
+    border-style: solid;
+    color:orangered;
+
+}
+
+.frst-col h1{
+    line-height: 1.5;
+    width: 400px;
+    font-size: 30px;
+
+    
+}
+
+.frst-col p{
+   line-height: 1.5 ;
+    width: 400px;
+    font-size: 20px;
+    }
+
+.img-sec{
+  display:flex;
+  flex-direction:row;
+}
+
+.img-sec img{
+    height:417px;
+    width:700px;
+
+}
+
+.img-sec img:last-child{
+    margin-right:350px;
+}
+
+.drilldown {
+    display: flex; 
+    align-items: center; 
+    gap: 10px; 
+    margin:5px; 
+    margin-left:100px;
+}
+
+label {
+    font-weight: bold; 
+}
+
+select,
+input[type="date"] {
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px; 
+}
+
+select:focus,
+input[type="date"]:focus {
+    border-color: orangered; 
+    outline: none;
+}
+
+.drilldown > button{
+   border-color: orangered;
+   border-style:solid;
+   width:150px; 
+   height:40px;
+   color:white;
+   background-color: orangered;
+   border-radius: 20px;
+}
+
+
+
+        
+
+
+
+    
+
+
+
+
+
